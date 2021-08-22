@@ -1,59 +1,49 @@
 
-console.log("update time");
-// GIVEN I am using a daily planner to create a schedule
-// WHEN I open the planner
-// THEN the current day is displayed at the top of the calendar --CHECK!
-// WHEN I scroll down
-// THEN I am presented with timeblocks for standard business hours --CHECK!
-// WHEN I view the timeblocks for that day
-function update() {
-    $("#currentDay").html(moment().format("MMMM D YYYY hh:mm:ss"));
-}
 
-setInterval(update, 1000);
-var timeNow = moment();
-var currentHour = timeNow.hours();
+// GLOBAL VARIABLE
+var topHTML = $('#currentDay'); // Grabs the top ID
+topHTML = topHTML.text(moment().format("MMMM Do YYYY hh:mm:ss")); // Assigns the time to the jumbotron to be displayed
 
-// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+// Checks the time and assigns the color to which it represents
+// Time past = Gray, Current Time = red, Time future = green
+// REASON FOR IDS: The IDS are used to run through each ID, the problem with the classes we have right now that is if we assign to it itll only go once since they all share the same name
+function setColor()
+{
+    $('.time-block').each(function ()
+    {
+        var timeID = parseInt(($(this)).attr('id')); // Grabs the time-blocks ID (used for comparing to hour)
+        var hour = moment().format('H'); // Gets the current hour (NUMBER ONLY)
+        var textarea = $(this).children('.textValue') // Grabs the textarea div (TO BE ABLE TO MANIPULATE CLASS AND CHANGE COLOR)
 
-
-//var currentHour = Date.now().update();
-function timeColor() {
-    $('.time-block').each(function() {
-        var timeSection = $(this).attr("id")
-        if (timeSection < currentHour) {
-            $(this).addClass("past")
-        } else if (timeSection == currentHour) {
-            $(this).addClass("present")
-        } else {
-            $(this).removeClass("past present")
-            $(this).addClass("future")
-        }
-
+        if (timeID == hour)
+        {textarea.addClass('present');}
+        else if (timeID > hour)
+        {textarea.addClass('future');}
+        else
+        {textarea.addClass('past');}
     })
 }
 
-function saveToDo(event)
+function saveToDo()
 {
-    event.preventDefault();
     $('.time-block').each(function ()
     {
         if (localStorage.getItem(parseInt(($(this)).attr('id'))) === null)
         {return;}
 
         else
-        {$(this).children('.description').val(localStorage.getItem(parseInt(($(this)).attr('id'))));}
+        {$(this).children('.textValue').val(localStorage.getItem(parseInt(($(this)).attr('id'))));}
     })
 }
 
 $('.saveBtn').click(function (event) 
 {
-    event.preventDefault();//stops Chrome from clearing entered data when refreshing the page 
+    // event.preventDefault();//stops Chrome from clearing entered data when refreshing the page 
     var t = $(event.target);
-    localStorage.setItem(parseInt(t.parent().attr('id')), t.siblings('.description').val())
+    localStorage.setItem(parseInt(t.parent().attr('id')), t.siblings('.textValue').val())
 })
 
-timeColor();
+setColor();
 saveToDo();
 
 
@@ -61,6 +51,7 @@ saveToDo();
 
 // WHEN I click the save button for that timeblock
 // THEN the text for that event is saved in local storage
+
 // WHEN I refresh the page
 // THEN the saved events persist
 // ```
