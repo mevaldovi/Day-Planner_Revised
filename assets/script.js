@@ -33,8 +33,9 @@ function timeColor() {
     })
 }
 
-function saveToDo()
+function saveToDo(event)
 {
+    event.preventDefault();
     $('.time-block').each(function ()
     {
         if (localStorage.getItem(parseInt(($(this)).attr('id'))) === null)

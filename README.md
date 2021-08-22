@@ -43,5 +43,6 @@ Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
 # Agknowledgments
 Special thanks to Trinh Nguyen for helping challenge me and point me in the right direction at the same time to complete this project.
+Thanks also to classmate Jacob Guiro for letting me use his jQuery for the last function in my script.js file.
 
 "Last, but not least, I would like to thank me. I want to thank me for believing in me, I want to thank me for doing all this hard work. I wanna thank me for having no days off. I wanna thank me for never quitting. I wanna thank me for always been a giver and trying to give more than I receive. I want to thank me for trying to do more right than wrong. I want to thank me for just being me at all times.” --Snoop Dog
