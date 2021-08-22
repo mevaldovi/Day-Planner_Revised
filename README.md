@@ -29,7 +29,7 @@ HTML, CSS, Javascript, Bootstrap & Moment.js.
 
 # Usage
 
-[Github_io](). 
+[Github_io](https://mevaldovi.github.io/DayPlanner_Revised2/). 
 
 If the link does not work, you can just clone down this repo. Open the index.html in your code editor, right click on the index and select "Open in Default Browser".
 # License
