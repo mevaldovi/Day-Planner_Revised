@@ -1,7 +1,9 @@
 # DayPlanner_Revised2
+![image](https://user-images.githubusercontent.com/83307023/135498255-ae3ae225-7de1-4e3f-b751-5edaa8faa41a.png)
+
 
 # Description
-A highly responsive day planner to help busy individuals keep track of their daily tasks.
+User-responsive day planner to help busy individuals keep track of their daily tasks.
 
 
 # Technology
