@@ -1,8 +1,11 @@
-# DayPlanner_Revised2
+# Day-Planner_Revised
 ![image](https://user-images.githubusercontent.com/83307023/135498255-ae3ae225-7de1-4e3f-b751-5edaa8faa41a.png)
 
 
 # Description
+[Deployed App](). 
+
+
 User-responsive day planner to help busy individuals keep track of their daily tasks.
 
 
@@ -11,27 +14,25 @@ HTML, CSS, Javascript, Bootstrap & Moment.js.
 
 
 # Table of Contents
-[Description](https://github.com/mevaldovi/DayPlanner_Revised2#Description)
+[Description](https://github.com/mevaldovi/Day-Planner_Revised#Description)
 
 
-[Technology](https://github.com/mevaldovi/DayPlanner_Revised2#Technology)
+[Technology](https://github.com/mevaldovi/Day-Planner_Revised#Technology)
 
 
-[Usage](https://github.com/mevaldovi/DayPlanner_Revised2#Usage)
+[Usage](https://github.com/mevaldovi/Day-Planner_Revised#Usage)
 
 
-[License](https://github.com/mevaldovi/DayPlanner_Revised2#License)
+[License](https://github.com/mevaldovi/Day-Planner_Revised#License)
 
 
-[Contact Info](https://github.com/mevaldovi/DayPlanner_Revised2#Contact)
+[Contact Info](https://github.com/mevaldovi/Day-Planner_Revised#Contact)
 
 
-[Agnowledgments](https://github.com/mevaldovi/DayPlanner_Revised2#Agknowledgments)
+[Agnowledgments](https://github.com/mevaldovi/Day-Planner_Revised#Agknowledgments)
 
 
 # Usage
-
-[Deployed app](https://mevaldovi.github.io/DayPlanner_Revised2/). 
 
 If the link does not work, you can just clone down this repo. Open the index.html in your code editor, right click on the index and select "Open in Default Browser".
 # License
