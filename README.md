@@ -3,7 +3,7 @@
 
 
 # Description
-[Deployed App](https). 
+[Deployed App](https://mevaldovi.github.io/Day-Planner_Revised/). 
 
 
 User-responsive day planner to help busy individuals keep track of their daily tasks.
