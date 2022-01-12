@@ -33,8 +33,12 @@ HTML, CSS, Javascript, Bootstrap & Moment.js.
 
 
 # Usage
+- No dependencies to install
 
-If the link does not work, you can just clone down this repo. Open the index.html in your code editor, right click on the index and select "Open in Default Browser".
+- Clone this repo
+
+- Open index.html in default browser 
+
 # License
 None at this time.
 
