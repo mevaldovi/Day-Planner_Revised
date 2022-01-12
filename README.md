@@ -1,5 +1,5 @@
 # Day-Planner_Revised
-[Deployed App](https://mevaldovi.github.io/Day-Planner_Revised/) 
+Deployed app: [https://mevaldovi.github.io/Day-Planner_Revised](https://mevaldovi.github.io/Day-Planner_Revised) 
 
 ![image](https://user-images.githubusercontent.com/83307023/135498255-ae3ae225-7de1-4e3f-b751-5edaa8faa41a.png)
 
