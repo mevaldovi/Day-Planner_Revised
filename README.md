@@ -10,7 +10,10 @@ User-responsive day planner to help busy individuals keep track of their daily t
 
 
 # Technology
-HTML, CSS, Javascript, Bootstrap & Moment.js.
+[<img alt="medium" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[<img alt="medium" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[<img alt="medium" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img alt="medium" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />](https://docs.python.org/)
 
 
 # Table of Contents
@@ -37,7 +40,7 @@ HTML, CSS, Javascript, Bootstrap & Moment.js.
 
 - Clone this repo
 
-- Open index.html in default browser 
+- Open `index.html` in default browser 
 
 # License
 None at this time.
@@ -45,6 +48,9 @@ None at this time.
 # Contact
 
 Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+
+LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1/](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
